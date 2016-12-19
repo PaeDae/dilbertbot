@@ -33,6 +33,7 @@
     "dev": "nodemon -x 'npm run lint && npm run test'",
     "lint": "./node_modules/eslint/bin/eslint.js .",
     "start": "node index.js",
+    "postinstall": "echo 'noop'",
     "test": "istanbul cover -x '*spec.js' ./node_modules/.bin/jasmine"
   },
   "version": "1.0.0"
